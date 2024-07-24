@@ -23,17 +23,16 @@ function InsideStoryArea() {
                 <div className="story-left">
                   <div className="office-group-img">
                     <img
-                      src={process.env.PUBLIC_URL + "/images/story.png"}
+                      src={ "/images/about2.png"}
                       alt="images"
                     />
                     <div className="cto-message-wrapper">
                       <div className="cto-message">
                         <p>
-                          Integer purus odio, placerat neclessi rhoncus in,
-                          ullamcorper nec dolor.ol aptent taciti sociosqu.
+                        Watch Security is a leading provider of electronic security and alarm monitoring services for residential, small, and large businesses across the United Kingdom. 
                         </p>
                         <h4>
-                          Carlo Rabil. <span>CTO &amp; FOUNDER, Finibus</span>
+                          {/* Carlo Rabil. <span>CTO &amp; FOUNDER, Finibus</span> */}
                         </h4>
                         <img
                           src={
@@ -49,17 +48,13 @@ function InsideStoryArea() {
               <div className="col-lg-6 col-xl-6">
                 <div className="story-right">
                   <div className="title black">
-                    <span>Inside Story</span>
+                    <span>ABOUT US</span>
                     <h2 className="mb-15">
-                      We are creative Agency that creates beautiful.
+                    HELLO! HERE WE ARE -
                     </h2>
                   </div>
                   <p>
-                    Integer purus odio, placerat nec rhoncus in, ullamcorper nec
-                    dolor. Classe aptent taciti sociosqu ad litora torquent per
-                    conubia nostra, per inceptosi himenaeos. Praesent nec neque
-                    at dolor venenatis consectetur eu quis e Donec lacinia
-                    placerat felis non aliquam.Integer purus odio.
+                 Watch Security is a leading provider of electronic security and alarm monitoring services for residential, small, and large businesses across the United Kingdom. With our commitment to safeguarding homes and businesses, we offer reliable and innovative security solutions tailored to meet the unique needs of our clients. Led by our dedicated Managing Director, Hassan Khan, and supported by a team of highly skilled and professional engineers, Watch Security has built a reputation for excellence in the industry. Our team brings together extensive expertise in electronic security systems, ensuring that our clients receive the highest level of protection and peace of mind.
                   </p>
                   <div className="story-skills">
                     <div className="story-skill">
@@ -78,7 +73,7 @@ function InsideStoryArea() {
                         className="progress-bar-circle"
                       />
 
-                      <span>Idea &amp; Research</span>
+                      <span>Residential &amp; Commercial  </span>
                     </div>
                     <div className="story-skill">
                       <CircularProgressbar
@@ -88,7 +83,7 @@ function InsideStoryArea() {
                         className="progress-bar-circle"
                       />
 
-                      <span>Wirfirm &amp; Design</span>
+                      <span> Access Control  Barriers</span>
                     </div>
                     <div className="story-skill">
                       <CircularProgressbar
@@ -97,7 +92,7 @@ function InsideStoryArea() {
                         text={`${singleXmlPercentage}%`}
                         className="progress-bar-circle"
                       />
-                      <span>Developing &amp; Launch</span>
+                      <span>24/7 Support</span>
                     </div>
                   </div>
                 </div>

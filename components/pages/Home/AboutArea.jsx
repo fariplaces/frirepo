@@ -22,14 +22,11 @@ function AboutArea() {
               <div className="about-left">
                 <div className="title black">
                   <span>About us</span>
-                  <h2 className="mb-15">Direction with our company.</h2>
+                  <h2 className="mb-15">Direction with our Watch Security.</h2>
                 </div>
                 <p>
-                  Integer purus odio, placerat nec rhoncus in, ullamcorper nec
-                  dolor. Classe aptent taciti sociosqu ad litora torquent per
-                  conubia nostra, per inceptos himenaeos. Praesent nec neque at
-                  dolor venenatis consectetur eu quis ei Donec lacinia placerat
-                  felis non aliquam.Integer purus odio.
+                
+At Watch Security, we understand that every property and business is unique. That’s why we take a personalised approach to security, working closely with our clients to assess their requirements and design customised solutions that address their specific concerns. Whether it’s installing state-of-the-art CCTV systems, access control solutions, or intruder alarms, we have the expertise to deliver reliable and effective security measures.
                 </p>
                 <div className="our-mission">
                   <div className="msn-icon">
@@ -37,7 +34,7 @@ function AboutArea() {
                       <img
                         src={
                           
-                          "/images/icons/mission-icon.png"
+                          "/images/about.png"
                         }
                         alt="images"
                       />
@@ -46,15 +43,14 @@ function AboutArea() {
                   <div className="msn-content">
                     <h5>Our Mission</h5>
                     <p>
-                      Integer purus odio, placerat nec rhoni olor Class online
-                      and video.
+                    Watch Security is a leading provider of electronic security and alarm monitoring services for residential, small, and large businesses across the United Kingdom.
                     </p>
                   </div>
                   <div className="cto">
-                    <img
+                    {/* <img
                       src={ "/images/ctoFounder.png"}
                       alt="imgs"
-                    />
+                    /> */}
                   </div>
                 </div>
                 <div className="cmn-btn">
@@ -66,12 +62,12 @@ function AboutArea() {
               <div className="about-right">
                 <div className="group-images">
                   <img
-                    src={ "/images/about-bottom.jpg"}
+                    src={ "/images/about.png"}
                     alt="images"
                   />
                   <div className="about-top">
                     <img
-                      src={ "/images/about-top.png"}
+                      src={ "/images/about3.png"}
                       alt="images"
                     />
                   </div>
@@ -84,7 +80,7 @@ function AboutArea() {
                       />
                       <div className="skill-content">
                         <h6>web</h6>
-                        <p>Clean Design</p>
+                        {/* <p>Clean Design</p> */}
                       </div>
                     </div>
                     <div className="signle-skill xsm">
@@ -95,7 +91,7 @@ function AboutArea() {
                       />
                       <div className="skill-content">
                         <h6>App</h6>
-                        <p>Developing</p>
+                        {/* <p>Developing</p> */}
                       </div>
                     </div>
                   </div>

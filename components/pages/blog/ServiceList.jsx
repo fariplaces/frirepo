@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 function ServiceList() {
   const scrollTop = () => {
@@ -10,97 +10,107 @@ function ServiceList() {
   };
 
   return (
-    <>
-      <div className="sidebar-widget">
-        <h4>Services</h4>
-        <ul className="service-list">
-          <li>
-            <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>
+    <div className="sidebar-widget">
+      <h4>Services</h4>
+      <ul className="service-list">
+        <li>
+          <Link href={`${process.env.PUBLIC_URL}/service-details`} passHref>
+            <div onClick={scrollTop}>
               <i>
                 <img
                   src={
                     process.env.PUBLIC_URL +
                     "/images/icons/dash-circle-icon.svg"
                   }
-                  alt="images"
+                  alt="Web Design Icon"
                 />
               </i>
               Web Design <span>(15)</span>
-            </Link>
-          </li>
-          <li>
-            <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>
+            </div>
+          </Link>
+        </li>
+        <li>
+          <Link href={`${process.env.PUBLIC_URL}/service-details`} passHref>
+            <div onClick={scrollTop}>
               <i>
                 <img
                   src={
                     process.env.PUBLIC_URL +
                     "/images/icons/dash-circle-icon.svg"
                   }
-                  alt="images"
+                  alt="Apps Development Icon"
                 />
               </i>
               Apps Development <span>(18)</span>
-            </Link>
-          </li>
-          <li>
-            <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>
+            </div>
+          </Link>
+        </li>
+        <li>
+          <Link href={`${process.env.PUBLIC_URL}/service-details`} passHref>
+            <div onClick={scrollTop}>
               <i>
                 <img
                   src={
                     process.env.PUBLIC_URL +
                     "/images/icons/dash-circle-icon.svg"
                   }
-                  alt="images"
+                  alt="Software Development Icon"
                 />
               </i>
               Software Development <span>(21)</span>
-            </Link>
-          </li>
-          <li>
-            <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>
+            </div>
+          </Link>
+        </li>
+        <li>
+          <Link href={`${process.env.PUBLIC_URL}/service-details`} passHref>
+            <div onClick={scrollTop}>
               <i>
                 <img
                   src={
                     process.env.PUBLIC_URL +
                     "/images/icons/dash-circle-icon.svg"
                   }
-                  alt="images"
+                  alt="Motion Graphics Icon"
                 />
               </i>
               Motion Graphics <span>(25)</span>
-            </Link>
-          </li>
-          <li>
-            <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>
+            </div>
+          </Link>
+        </li>
+        <li>
+          <Link href={`${process.env.PUBLIC_URL}/service-details`} passHref>
+            <div onClick={scrollTop}>
               <i>
                 <img
                   src={
                     process.env.PUBLIC_URL +
                     "/images/icons/dash-circle-icon.svg"
                   }
-                  alt="images"
+                  alt="UI/UX Design Icon"
                 />
               </i>
               UI/UX Design <span>(29)</span>
-            </Link>
-          </li>
-          <li>
-            <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>
+            </div>
+          </Link>
+        </li>
+        <li>
+          <Link href={`${process.env.PUBLIC_URL}/service-details`} passHref>
+            <div onClick={scrollTop}>
               <i>
                 <img
                   src={
                     process.env.PUBLIC_URL +
                     "/images/icons/dash-circle-icon.svg"
                   }
-                  alt="images"
+                  alt="Graphic Design Icon"
                 />
               </i>
               Graphic Design <span>(31)</span>
-            </Link>
-          </li>
-        </ul>
-      </div>
-    </>
+            </div>
+          </Link>
+        </li>
+      </ul>
+    </div>
   );
 }
 

@@ -11,7 +11,7 @@ function OurPartnerArea() {
                 <div className="subscribes">
                   <span>Get In Touch</span>
                   <h1>Subscribe Our</h1>
-                  <h2>Newsletter</h2>
+                  <h2>Watch Security</h2>
                   <div className="subscribe-form">
                     <form
                       onSubmit={(e) => e.preventDefault()}
@@ -40,13 +40,13 @@ function OurPartnerArea() {
                   </div>
                   <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div className="single-client">
-                      {/* <img
+                      <img
                         src={
-                          process.env.PUBLIC_URL +
-                          "/images/partner-icons/partner-1.png"
+                          
+                          "/images/partner1.PNG"
                         }
                         alt="images"
-                      /> */}
+                      />
                       <div className="client-hover">
                         <span>Compassion</span>
                       </div>
@@ -56,8 +56,8 @@ function OurPartnerArea() {
                     <div className="single-client">
                       <img
                         src={
-                          process.env.PUBLIC_URL +
-                          "/images/partner-icons/partner-2.png"
+                          
+                          "/images/partner2.png"
                         }
                         alt="images"
                       />
@@ -70,8 +70,8 @@ function OurPartnerArea() {
                     <div className="single-client">
                       <img
                         src={
-                          process.env.PUBLIC_URL +
-                          "/images/partner-icons/partner-3.png"
+                         
+                          "/images/partner3.png"
                         }
                         alt="images"
                       />
@@ -84,8 +84,8 @@ function OurPartnerArea() {
                     <div className="single-client">
                       <img
                         src={
-                          process.env.PUBLIC_URL +
-                          "/images/partner-icons/partner-4.png"
+                        
+                          "/images/partner4.png"
                         }
                         alt="images"
                       />
@@ -98,8 +98,8 @@ function OurPartnerArea() {
                     <div className="single-client">
                       <img
                         src={
-                          process.env.PUBLIC_URL +
-                          "/images/partner-icons/partner-5.png"
+                        
+                          "/images/partner5.png"
                         }
                         alt="images"
                       />
@@ -112,8 +112,8 @@ function OurPartnerArea() {
                     <div className="single-client">
                       <img
                         src={
-                          process.env.PUBLIC_URL +
-                          "/images/partner-icons/partner-6.png"
+                       
+                          "/images/partner6.png"
                         }
                         alt="images"
                       />
@@ -126,55 +126,55 @@ function OurPartnerArea() {
                     <div className="single-client">
                       <img
                         src={
-                          process.env.PUBLIC_URL +
-                          "/images/partner-icons/partner-7.png"
+                       
+                          "/images/partner7.png"
                         }
                         alt="images"
                       />
                       <div className="client-hover">
-                        <span>www.example.com</span>
+                        <span>Trusted security</span>
                       </div>
                     </div>
                   </div>
                   <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div className="single-client">
-                      {/* <img
+                      <img
                         src={
-                          process.env.PUBLIC_URL +
-                          "/images/partner-icons/partner-8.png"
+                        
+                          "/images/partner8.png"
                         }
                         alt="images"
-                      /> */}
+                      />
                       <div className="client-hover">
-                        <span>www.example.com</span>
+                        <span>smart system</span>
                       </div>
                     </div>
                   </div>
                   <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div className="single-client">
-                      {/* <img
+                      <img
                         src={
-                          process.env.PUBLIC_URL +
-                          "/images/partner-icons/partner-9.png"
+                         
+                          "/images/partner9.png"
                         }
                         alt="images"
-                      /> */}
+                      />
                       <div className="client-hover">
-                        <span>www.example.org</span>
+                        <span>24/7 Hours Support</span>
                       </div>
                     </div>
                   </div>
                   <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                     <div className="single-client">
-                      {/* <img
+                      <img
                         src={
-                          process.env.PUBLIC_URL +
-                          "/images/partner-icons/partner-10.png"
+                          
+                          "/images/partner10.png"
                         }
                         alt="images"
-                      /> */}
+                      />
                       <div className="client-hover">
-                        <span>www.example.com</span>
+                        <span>quality Services</span>
                       </div>
                     </div>
                   </div>

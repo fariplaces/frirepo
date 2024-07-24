@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+
 function Breadcrumb(props) {
   return (
     <>
@@ -10,14 +11,16 @@ function Breadcrumb(props) {
               <div className="breadcrumb-wrapper">
                 <h1>{props.pageName}</h1>
                 <span>
-                  <Link to={"/"}>Home</Link>
+                  <Link href="/" passHref>
+                  Home
+                  </Link>
                   <i>
                     <img
                       src={
                         process.env.PUBLIC_URL +
                         "/images/icons/breadcrumb-arrow.svg"
                       }
-                      alt="images"
+                      alt="Breadcrumb Arrow"
                     />
                   </i>
                   {props.pageName}

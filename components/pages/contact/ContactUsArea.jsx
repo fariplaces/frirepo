@@ -9,7 +9,7 @@ function ContactUsArea() {
           <div className="col col-xl-6">
             <div className="title black">
               <span>Get In Touch</span>
-              <h2>contact us if you have more questions.</h2>
+              <h2>WELL TRAINED WATCH SECURITY</h2>
             </div>
           </div>
         </div>
@@ -19,9 +19,11 @@ function ContactUsArea() {
               <div className="icon">
                 <i className="bi bi-geo-alt" />
               </div>
-              <h4>Location</h4>
+              <h4>Phone</h4>
               <p>
-                168/170, Ave 01,Old York Drive Rich Mirpur, Dhaka, Bangladesh
+              Our customer care is open from Mon-Fri, 10:00 am to 6:00 pm
+
+South Yorkshire, S9 5AB, United Kingdom
               </p>
             </div>
           </div>
@@ -30,9 +32,9 @@ function ContactUsArea() {
               <div className="icon">
                 <i className="bi bi-telephone" />
               </div>
-              <h4>Phone</h4>
-              <a href="tel:0123456789102">+012-3456-789102</a>
-              <a href="tel:013456789102">+012-3456-789102</a>
+              <h4>Email</h4>
+              <a href="tel:0123456789102">Our customer care is open from Mon-Fri, 10:00 am to 6:00 pm</a>
+              <a href="tel:013456789102">0800 002 5272</a>
             </div>
           </div>
           <div className="col-md-6 col-lg-4 col-xl-4">
@@ -40,9 +42,9 @@ function ContactUsArea() {
               <div className="icon">
                 <i className="bi bi-envelope" />
               </div>
-              <h4>Email</h4>
-              <a href="mailto:info@example.com">info@example.com</a>
-              <a href="mailto:support@example.com">support@example.com</a>
+              <h4>Location</h4>
+              <a href="mailto:info@example.com">Our customer care is open from Mon-Fri, 10:00 am to 6:00 pm</a>
+              <a href="mailto:support@example.com">info@watchsecurityltd.co.uk</a>
             </div>
           </div>
         </div>

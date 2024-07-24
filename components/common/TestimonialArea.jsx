@@ -44,23 +44,17 @@ function TestimonialArea() {
                       <div className="client-info">
                         <div className="client-pic">
                           <img
-                            src={ "/images/client.jpg"}
+                            src={ "/images/about4.png"}
                             alt="images"
                           />
                         </div>
                         <div className="client-details">
-                          <h4>Savannah Nguyen</h4>
-                          <span>Executive CEO</span>
+                          <h4>Home Security</h4>
+                          {/* <span>Executive CEO</span> */}
                         </div>
                       </div>
                       <p>
-                        <i className="fas fa-quote-left" /> Curabitur magna
-                        nisi, egestas quis est in, finibus pulvinar ipsum. Nunc
-                        sit amet odio interdum, maximus dolor quis, ullamcorper
-                        lectus. Mauris vitae faucibus libero. Curabitur eu
-                        convallis purus. Nunc accumsan diam in arcu pellentesque
-                        sagittis. Curabitur dolor odio, aliquam vitae noday
-                        backowner condimentum this fire ongon then only on{" "}
+                        <i className="fas fa-quote-left" /> Experience Tranquility at Home: Elevate Security with Advanced Home Protection Solutions{" "}
                         <i className="fas fa-quote-right" />
                       </p>
                       <div className="rating">
@@ -81,24 +75,19 @@ function TestimonialArea() {
                         <div className="client-pic">
                           <img
                             src={
-                               "/images/client-2.jpg"
+                               "/images/about5.png"
                             }
                             alt="images"
                           />
                         </div>
                         <div className="client-details">
-                          <h4>Nailong Jeso</h4>
-                          <span>CTO Founder</span>
+                          <h4>Access Control</h4>
+                          {/* <span>CTO Founder</span> */}
                         </div>
                       </div>
                       <p>
-                        <i className="fas fa-quote-left" /> Curabitur magna
-                        nisi, egestas quis est in, finibus pulvinar ipsum. Nunc
-                        sit amet odio interdum, maximus dolor quis, ullamcorper
-                        lectus. Mauris vitae faucibus libero. Curabitur eu
-                        convallis purus. Nunc accumsan diam in arcu pellentesque
-                        sagittis. Curabitur dolor odio, aliquam vitae noday
-                        backowner condimentum this fire ongon then only on{" "}
+                        <i className="fas fa-quote-left" /> 
+                        Empower Access Control: Fortify Your Spaces with State-of-the-Art Security Solutions{" "}
                         <i className="fas fa-quote-right" />
                       </p>
                       <div className="rating">
@@ -119,24 +108,18 @@ function TestimonialArea() {
                         <div className="client-pic">
                           <img
                             src={
-                               "/images/client-3.jpg"
+                               "/images/about6.png"
                             }
                             alt="images"
                           />
                         </div>
                         <div className="client-details">
-                          <h4>Gautam Yamni</h4>
-                          <span>Designer Head</span>
+                          <h4>24/7 Support</h4>
+                          {/* <span>Designer Head</span> */}
                         </div>
                       </div>
                       <p>
-                        <i className="fas fa-quote-left" /> Curabitur magna
-                        nisi, egestas quis est in, finibus pulvinar ipsum. Nunc
-                        sit amet odio interdum, maximus dolor quis, ullamcorper
-                        lectus. Mauris vitae faucibus libero. Curabitur eu
-                        convallis purus. Nunc accumsan diam in arcu pellentesque
-                        sagittis. Curabitur dolor odio, aliquam vitae noday
-                        backowner condimentum this fire ongon then only on{" "}
+                        <i className="fas fa-quote-left" />Reliable 24/7 Support Around the Clock: Providing Assurance and Peace of Mind in Critical Moments.{" "}
                         <i className="fas fa-quote-right" />
                       </p>
                       <div className="rating">

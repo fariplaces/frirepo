@@ -9,7 +9,9 @@ function ContactForm() {
           <div className="row">
             <div className="col-lg-6 col-xl-6">
               <div className="contact-form">
-                <h3>Have Any Questions</h3>
+                <h3>
+Ready to enhance your security infrastructure? We're here to assist you. Feel free to get in touch using the contact details below or use our convenient inquiry form.
+</h3>
                 <form
                   onSubmit={(e) => e.preventDefault()}
                   action="#"
@@ -20,18 +22,27 @@ function ContactForm() {
                       <input
                         type="text"
                         name="name"
-                        placeholder="Enter your name"
+                        placeholder=" Name"
                       />
                     </div>
                     <div className="col-xl-6">
                       <input
                         type="email"
                         name="email"
-                        placeholder="Enter your email"
+                        placeholder="Email"
                       />
                     </div>
                     <div className="col-xl-6">
-                      <input type="text" name="subject" placeholder="Subject" />
+                      <input type="text" name="subject" placeholder="Telephone" />
+                    </div>
+                    <div className="col-12">
+                      <textarea
+                        name="message"
+                        cols={30}
+                        rows={10}
+                        placeholder="How can we help?"
+                        defaultValue={""}
+                      />
                     </div>
                     <div className="col-12">
                       <textarea
@@ -43,7 +54,8 @@ function ContactForm() {
                       />
                     </div>
                     <div className="col-12">
-                      <input type="submit" defaultValue="Send Message" />
+                      <input type="submit" defaultValue="Send Request" />
+                   <p>At Watch Security, your safety is our priority. Contact us today and experience security solutions that go beyond expectations.</p>
                     </div>
                   </div>
                 </form>

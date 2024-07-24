@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 function Pagination() {
   return (
@@ -7,21 +7,27 @@ function Pagination() {
       <nav>
         <ul className="pagination">
           <li>
-            <Link to={"/"}>
+            <Link href="/">
               <i className="bi bi-arrow-left-short"></i>
             </Link>
           </li>
           <li className="active">
-            <Link to={"/"}>01</Link>
+            <Link href="/">
+              01
+            </Link>
           </li>
           <li>
-            <Link to={"/"}>02</Link>
+            <Link href="/">
+              02
+            </Link>
           </li>
           <li>
-            <Link to={"/"}>03</Link>
+            <Link href="/">
+              03
+            </Link>
           </li>
           <li>
-            <Link to={"/"}>
+            <Link href="/">
               <i className="bi bi-arrow-right-short"></i>
             </Link>
           </li>

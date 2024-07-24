@@ -16,9 +16,9 @@ function LetsTalkArea() {
           <div className="row align-items-center">
             <div className="col-md-9 col-lg-8 col-xl-7">
               <div className="title special">
-                <span> OUR SOLUTIONS</span>
+                <span>OUR SOLUTIONS</span>
                 <h2>
-                PROTECT YOUR HOME OR BUSINESS WITH OUR WATCH   <br />
+                  PROTECT YOUR HOME OR BUSINESS WITH OUR WATCH<br />
                   <b>SECURITY</b> SOLUTIONS
                 </h2>
               </div>
@@ -26,11 +26,8 @@ function LetsTalkArea() {
             <div className="col-md-3 col-lg-4 col-xl-5 text-end">
               <div className="getin-touch">
                 <div className="cmn-btn">
-                  <Link
-                    onClick={scrollTop}
-                    href={`/contact`}
-                  >
-                    Get In Touch
+                  <Link href="/contact" legacyBehavior>
+                    <button onClick={scrollTop} className="btn">Get In Touch</button>
                   </Link>
                 </div>
               </div>
